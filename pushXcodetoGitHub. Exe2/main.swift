@@ -8,6 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+var clasMembers = 20
+var badAttandance = 12
 
-print ("message 2")
+if clasMembers < badAttandance {
+    print("Good students only one is missing")
+} else {
+    print("Bad attandance, les that", badAttandance, "showed up")
+}
+
+
